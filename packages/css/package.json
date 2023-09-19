@@ -4,7 +4,8 @@
   "scripts": {
     "build:unminified": "sass -I node_modules src/index.scss:dist/index.css",
     "build:minified": "sass -I node_modules src/index.scss:dist/index.min.css --style compressed",
-    "build": "pnpm build:unminified && pnpm build:minified"
+    "build": "pnpm build:unminified && pnpm build:minified",
+    "prepublish": "pnpm i && pnpm build"
   },
   "files": [
     "dist"
