@@ -17,7 +17,7 @@
 ###### Using Javascript or Typescript
 
 ```js
-import '@carbon-extra'
+import '@carbon-extra/css'
 ```
 
 ###### Using HTML Link Stylesheet
