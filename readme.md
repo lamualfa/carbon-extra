@@ -13,7 +13,7 @@
 
 ## Add-ons
 
-| Package Name                                   | Description                                                                                                                                                  |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`@carbon-extra/css`](/packages/css/readme.md) | Compiled version of [`@carbon/styles`](https://github.com/carbon-design-system/carbon/tree/main/packages/styles). So you don't have to install `sass` again. |
+| Package Name                                   | Description                                                                                                       |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| [`@carbon-extra/css`](/packages/css/readme.md) | Compiled version of [`@carbon/styles`](https://github.com/carbon-design-system/carbon/tree/main/packages/styles). |
 
