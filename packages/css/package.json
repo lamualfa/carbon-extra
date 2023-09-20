@@ -1,6 +1,6 @@
 {
   "name": "@carbon-extra/css",
-  "version": "1.38.0",
+  "version": "1.38.1",
   "scripts": {
     "build:unminified": "sass -I node_modules src/index.scss:dist/index.css",
     "build:minified": "sass -I node_modules src/index.scss:dist/index.min.css --style compressed",
