@@ -5,7 +5,7 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "ci:publish": "pnpm publish -r"
+    "ci:publish": "pnpm publish -r --access public"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
