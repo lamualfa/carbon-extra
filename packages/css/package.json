@@ -30,5 +30,6 @@
     "styles",
     "sass",
     "css"
-  ]
+  ],
+  "private": false
 }
