@@ -6,6 +6,26 @@
   Compiled version of <a href="https://github.com/carbon-design-system/carbon/tree/main/packages/styles"><code>@carbon/styles</code></a>. So you don't have to install <code>sass</code> again.
 </p>
 
+## Install
+
+###### Using PNPM
+
+```bash
+pnpm add @carbon-extra/css
+```
+
+###### Using NPM
+
+```bash
+npm i @carbon-extra/css
+```
+
+###### Using Yarn
+
+```bash
+yarn add @carbon-extra/css
+```
+
 ## Usage
 
 ###### Using CSS

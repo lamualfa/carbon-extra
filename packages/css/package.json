@@ -31,5 +31,11 @@
     "sass",
     "css"
   ],
-  "private": false
+  "private": false,
+  "author": {
+    "name": "Laode Muhammad Al Fatih",
+    "email": "lamualfa@gmail.com",
+    "url": "https://github.com/lamualfa"
+  },
+  "license": "WTFPL"
 }
