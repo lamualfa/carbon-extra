@@ -24,32 +24,32 @@ importers:
   packages/css:
     devDependencies:
       '@carbon/colors':
-        specifier: ^11.19.0
-        version: 11.19.0
+        specifier: ^11.20.0
+        version: 11.20.0
       '@carbon/feature-flags':
         specifier: ^0.16.0
         version: 0.16.0
       '@carbon/grid':
+        specifier: ^11.21.0
+        version: 11.21.0
+      '@carbon/layout':
         specifier: ^11.20.0
         version: 11.20.0
-      '@carbon/layout':
-        specifier: ^11.19.0
-        version: 11.19.0
       '@carbon/motion':
-        specifier: ^11.15.0
-        version: 11.15.0
+        specifier: ^11.16.0
+        version: 11.16.0
       '@carbon/styles':
-        specifier: ^1.38.0
-        version: 1.38.0(sass@1.67.0)
+        specifier: ^1.44.0
+        version: 1.44.0(sass@1.69.5)
       '@carbon/themes':
+        specifier: ^11.28.0
+        version: 11.28.0
+      '@carbon/type':
         specifier: ^11.25.0
         version: 11.25.0
-      '@carbon/type':
-        specifier: ^11.24.0
-        version: 11.24.0
       sass:
-        specifier: ^1.67.0
-        version: 1.67.0
+        specifier: ^1.69.5
+        version: 1.69.5
 
 packages:
 
@@ -87,61 +87,61 @@ packages:
       regenerator-runtime: 0.14.0
     dev: true
 
-  /@carbon/colors@11.19.0:
-    resolution: {integrity: sha512-cRDnv9GfktZo+p/t/Lsy2B3yvMbDI1Ht2ECU0rAikClQHVnOffz791Q4m2gy2STPdISnzjFSPmoRxGKLfYhLRA==}
+  /@carbon/colors@11.20.0:
+    resolution: {integrity: sha512-aWxYQ1G3TJWd9qmAqs/Tm6G0bcOAw32Ii8VraxIwhYSXFpteHczidMj12EduFBGFyK4JhYKb4ZuUfSKNNWKQ1w==}
     dev: true
 
   /@carbon/feature-flags@0.16.0:
     resolution: {integrity: sha512-hCrfVZ6oVnPjjupelbvQX4D0i6GlZuKVverAf0LkOydXHrPjSyuEmg+czsylyCBg4r/hxtSTu91Tq6aqz/DsHg==}
     dev: true
 
-  /@carbon/grid@11.20.0:
-    resolution: {integrity: sha512-YzF6NY6BNbiMI4wwF1oz0XAoiYFt5YoLovHwsHJBb/RFc1qPp94WFL1NoAprKX7I2c7V+ypAjmoTuXFACeL4Dg==}
+  /@carbon/grid@11.21.0:
+    resolution: {integrity: sha512-Zzhos2we+HqM0obdQgma+OvLoM9dNGq07YcLxFxrc/vEOn/D01sner6dyMMqS2y8036zIaoqVMGArSzPfoxrLA==}
     dependencies:
-      '@carbon/layout': 11.19.0
+      '@carbon/layout': 11.20.0
     dev: true
 
-  /@carbon/layout@11.19.0:
-    resolution: {integrity: sha512-BI9ct+yVKrgL90l4nijMhj8dokXGBJu1Xtve9fz/lcveTyxxn7YvRu8mosGhCyw77KSU6vN2yRLJnQwqwqrLJQ==}
+  /@carbon/layout@11.20.0:
+    resolution: {integrity: sha512-G9eJE3xb/J98Id9VvTA/b4v+2i/c+IiHAhxNPc0PPpPN6C/r6U4gJsG4yPgQnbuIU42cP9L8OvCrQr0mbrCMlA==}
     dev: true
 
-  /@carbon/motion@11.15.0:
-    resolution: {integrity: sha512-l7SIZMwTmv8BHPvDsQ26Y/dBLKnLGZUvD5bGcDppoUInUcKv2Dg4J0r5JONUsB2OagpBmbj/a5skcahzlaL1JQ==}
+  /@carbon/motion@11.16.0:
+    resolution: {integrity: sha512-gr2oijosvrbV8I8dT+s+KTAzHswQ7GE1ffgKxMWWkdg4b91hlJ0qJe1BlG7ZnaHCRpeHKS12QQgnS/dy4yx92Q==}
     dev: true
 
-  /@carbon/styles@1.38.0(sass@1.67.0):
-    resolution: {integrity: sha512-HS3kwwfrC/DAEYJmRBIPk8HsJh4F3XlOVG74lJwCGxXxKxj9wcE24e3MlaPOhAcR1Z4MtuTIXvDH581zsonv5A==}
+  /@carbon/styles@1.44.0(sass@1.69.5):
+    resolution: {integrity: sha512-5geQru8tuQvZwo2x4oUQ6F6zYhrxAb/dLYjNCKrs6bM1Hf1Ha2mAiu4y/NXt9T0WcCQJs4CX8XEEOEn6iAyJww==}
     peerDependencies:
       sass: ^1.33.0
     peerDependenciesMeta:
       sass:
         optional: true
     dependencies:
-      '@carbon/colors': 11.19.0
+      '@carbon/colors': 11.20.0
       '@carbon/feature-flags': 0.16.0
-      '@carbon/grid': 11.20.0
-      '@carbon/layout': 11.19.0
-      '@carbon/motion': 11.15.0
-      '@carbon/themes': 11.25.0
-      '@carbon/type': 11.24.0
+      '@carbon/grid': 11.21.0
+      '@carbon/layout': 11.20.0
+      '@carbon/motion': 11.16.0
+      '@carbon/themes': 11.28.0
+      '@carbon/type': 11.25.0
       '@ibm/plex': 6.0.0-next.6
-      sass: 1.67.0
+      sass: 1.69.5
     dev: true
 
-  /@carbon/themes@11.25.0:
-    resolution: {integrity: sha512-SQ4RLJhjheE0eq9gL4TNmYMQAsVmwveZpAMHPB9bVARC3pRfUDy+s0+j57/vWtVlEs4j3f7HxVvNazW6ohTl8A==}
+  /@carbon/themes@11.28.0:
+    resolution: {integrity: sha512-LvUFGXjsJ6csTrSjSOhkmvKHA0wcJOGchPaBrnWZB5J0UVCW+66P7lLuQBkTab7qgwRp4VgOSOkGdPPFQuchWQ==}
     dependencies:
-      '@carbon/colors': 11.19.0
-      '@carbon/layout': 11.19.0
-      '@carbon/type': 11.24.0
+      '@carbon/colors': 11.20.0
+      '@carbon/layout': 11.20.0
+      '@carbon/type': 11.25.0
       color: 4.2.3
     dev: true
 
-  /@carbon/type@11.24.0:
-    resolution: {integrity: sha512-X/UN/leNbwis5NdDzLPyy5AZXvgqSCM8uH/FOomCf5KTxAcpDOsY7jx5rax+zHE6HqgJWuFDfQPwnVMRBS4LfQ==}
+  /@carbon/type@11.25.0:
+    resolution: {integrity: sha512-p3i5B0uANc2GwPBnbxRVg/KFMWkPV+5I52pkFCs87Bgx6T8r4jB0Y5iPPwsVn2aI5wOnDfiULwSC4JS0LCIgxA==}
     dependencies:
-      '@carbon/grid': 11.20.0
-      '@carbon/layout': 11.19.0
+      '@carbon/grid': 11.21.0
+      '@carbon/layout': 11.20.0
     dev: true
 
   /@changesets/apply-release-plan@6.1.4:
@@ -2059,8 +2059,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sass@1.67.0:
-    resolution: {integrity: sha512-SVrO9ZeX/QQyEGtuZYCVxoeAL5vGlYjJ9p4i4HFuekWl8y/LtJ7tJc10Z+ck1c8xOuoBm2MYzcLfTAffD0pl/A==}
+  /sass@1.69.5:
+    resolution: {integrity: sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:

@@ -1,6 +1,6 @@
 {
   "name": "@carbon-extra/css",
-  "version": "1.38.1",
+  "version": "1.44.0",
   "scripts": {
     "build:unminified": "sass -I node_modules src/index.scss:dist/index.css",
     "build:minified": "sass -I node_modules src/index.scss:dist/index.min.css --style compressed",
@@ -13,15 +13,15 @@
   "main": "dist/index.min.css",
   "style": "dist/index.min.css",
   "devDependencies": {
-    "@carbon/colors": "^11.19.0",
+    "@carbon/colors": "^11.20.0",
     "@carbon/feature-flags": "^0.16.0",
-    "@carbon/grid": "^11.20.0",
-    "@carbon/layout": "^11.19.0",
-    "@carbon/motion": "^11.15.0",
-    "@carbon/themes": "^11.25.0",
-    "@carbon/type": "^11.24.0",
-    "@carbon/styles": "^1.38.0",
-    "sass": "^1.67.0"
+    "@carbon/grid": "^11.21.0",
+    "@carbon/layout": "^11.20.0",
+    "@carbon/motion": "^11.16.0",
+    "@carbon/styles": "^1.44.0",
+    "@carbon/themes": "^11.28.0",
+    "@carbon/type": "^11.25.0",
+    "sass": "^1.69.5"
   },
   "keywords": [
     "ibm",
