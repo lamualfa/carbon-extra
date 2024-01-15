@@ -1,5 +1,11 @@
 # @carbon-extra/css
 
+## 1.45.0
+
+### Minor Changes
+
+- 96a397e: Update dependencies
+
 ## 1.44.0
 
 ### Minor Changes
