@@ -39,8 +39,8 @@ importers:
         specifier: ^11.16.0
         version: 11.16.0
       '@carbon/styles':
-        specifier: ^1.44.0
-        version: 1.44.0(sass@1.69.5)
+        specifier: ^1.47.0
+        version: 1.47.0(sass@1.69.7)
       '@carbon/themes':
         specifier: ^11.28.0
         version: 11.28.0
@@ -48,8 +48,8 @@ importers:
         specifier: ^11.25.0
         version: 11.25.0
       sass:
-        specifier: ^1.69.5
-        version: 1.69.5
+        specifier: ^1.69.7
+        version: 1.69.7
 
 packages:
 
@@ -109,8 +109,8 @@ packages:
     resolution: {integrity: sha512-gr2oijosvrbV8I8dT+s+KTAzHswQ7GE1ffgKxMWWkdg4b91hlJ0qJe1BlG7ZnaHCRpeHKS12QQgnS/dy4yx92Q==}
     dev: true
 
-  /@carbon/styles@1.44.0(sass@1.69.5):
-    resolution: {integrity: sha512-5geQru8tuQvZwo2x4oUQ6F6zYhrxAb/dLYjNCKrs6bM1Hf1Ha2mAiu4y/NXt9T0WcCQJs4CX8XEEOEn6iAyJww==}
+  /@carbon/styles@1.47.0(sass@1.69.7):
+    resolution: {integrity: sha512-hwnz5UlijYeh+liMii+LYysX4wHv/TYSiiFnBdyXxst+2DOmL43dKUpgP2lzggYvVgdTcuA9swflKgacWArIeg==}
     peerDependencies:
       sass: ^1.33.0
     peerDependenciesMeta:
@@ -125,7 +125,7 @@ packages:
       '@carbon/themes': 11.28.0
       '@carbon/type': 11.25.0
       '@ibm/plex': 6.0.0-next.6
-      sass: 1.69.5
+      sass: 1.69.7
     dev: true
 
   /@carbon/themes@11.28.0:
@@ -2059,8 +2059,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sass@1.69.5:
-    resolution: {integrity: sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ==}
+  /sass@1.69.7:
+    resolution: {integrity: sha512-rzj2soDeZ8wtE2egyLXgOOHQvaC2iosZrkF6v3EUG+tBwEvhqUCzm0VP3k9gHF9LXbSrRhT5SksoI56Iw8NPnQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
