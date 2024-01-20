@@ -1,0 +1,5 @@
+@use '@carbon/styles' with (
+  $use-flexbox-grid: true,
+  $font-path: 'https://unpkg.com/@ibm/plex'
+);
+@use '../base';

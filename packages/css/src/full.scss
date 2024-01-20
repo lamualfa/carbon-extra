@@ -1,5 +1,4 @@
 @use '@carbon/styles' with (
   $use-flexbox-grid: true
 );
-@use '@carbon/styles/scss/zone';
-@use './fixes.scss';
+@use './base';

@@ -2,26 +2,26 @@
   "name": "@carbon-extra/css",
   "version": "1.44.0",
   "scripts": {
-    "build:unminified": "sass -I node_modules src/index.scss:dist/index.css",
-    "build:minified": "sass -I node_modules src/index.scss:dist/index.min.css --style compressed",
+    "build:unminified": "sass -I node_modules src:dist/unminified --no-source-map",
+    "build:minified": "sass -I node_modules src:dist --style compressed",
     "build": "pnpm build:unminified && pnpm build:minified",
     "prepublish": "pnpm i && pnpm build"
   },
   "files": [
     "dist"
   ],
-  "main": "dist/index.min.css",
-  "style": "dist/index.min.css",
+  "main": "dist/full.css",
+  "style": "dist/full.css",
   "devDependencies": {
     "@carbon/colors": "^11.20.0",
     "@carbon/feature-flags": "^0.16.0",
     "@carbon/grid": "^11.21.0",
     "@carbon/layout": "^11.20.0",
     "@carbon/motion": "^11.16.0",
-    "@carbon/styles": "^1.47.0",
-    "@carbon/themes": "^11.28.0",
+    "@carbon/styles": "^1.48.0",
+    "@carbon/themes": "^11.29.0",
     "@carbon/type": "^11.25.0",
-    "sass": "^1.69.7"
+    "sass": "^1.70.0"
   },
   "keywords": [
     "ibm",
@@ -29,7 +29,8 @@
     "carbon-design-system",
     "styles",
     "sass",
-    "css"
+    "css",
+    "scss"
   ],
   "private": false,
   "author": {

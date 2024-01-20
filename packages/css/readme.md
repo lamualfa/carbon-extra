@@ -28,10 +28,12 @@ yarn add @carbon-extra/css
 
 ## Usage
 
+### Self-Hosted
+
 ###### Using CSS
 
 ```css
-@import 'node_modules/@carbon-extra/css/dist/index.min.css';
+@import 'node_modules/@carbon-extra/css/dist/index.css';
 ```
 
 ###### Using Javascript or Typescript
@@ -43,5 +45,36 @@ import '@carbon-extra/css'
 ###### Using HTML Link Stylesheet
 
 ```html
-<link rel="stylesheet" href="node_modules/@carbon-extra/css/dist/index.min.css">
+<link rel="stylesheet" href="node_modules/@carbon-extra/css/dist/index.css">
 ```
+
+### CDN
+
+###### Using JSDelivr
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@carbon-extra/css/dist/cdn/full.css">
+```
+
+###### Using UNPKG
+
+```html
+<link rel="stylesheet" href="https://www.unpkg.com/@carbon-extra/css/dist/cdn/full.css">
+```
+
+## Structures
+
+| File name                 | Description                         | Status |
+| ------------------------- | ----------------------------------- | ------ |
+| `full.css`                | Self-hosted, Minified & All themes  | ✅      |
+| `cdn/full.css`            | CDN, Minified & All themes          | ✅      |
+| `unminified/full.css`     | Self-hosted & All themes            | ✅      |
+| `unminified/cdn/full.css` | CDN & All themes                    | ✅      |
+| `white.css`               | Self-hosted, Minified & White theme | ⏳      |
+| `g10.css`                 | Self-hosted, Minified & G10 theme   | ⏳      |
+| `g90.css`                 | Self-hosted, Minified & G90 theme   | ⏳      |
+| `g100.css`                | Self-hosted, Minified & G100 theme  | ⏳      |
+
+**Note**
+
+> Use **Self-hosted** version if you use module bundler like Webpack, Rollup, etc. Otherwise, use the **CDN** version instead.
