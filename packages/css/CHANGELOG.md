@@ -1,5 +1,11 @@
 # @carbon-extra/css
 
+## 2.0.0
+
+### Major Changes
+
+- 16c9109: Add CDN version
+
 ## 1.45.0
 
 ### Minor Changes
