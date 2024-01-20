@@ -1,6 +1,6 @@
 {
   "name": "@carbon-extra/css",
-  "version": "1.44.0",
+  "version": "1.45.0",
   "scripts": {
     "build:unminified": "sass -I node_modules src:dist/unminified --no-source-map",
     "build:minified": "sass -I node_modules src:dist --style compressed",
