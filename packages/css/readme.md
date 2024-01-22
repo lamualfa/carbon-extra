@@ -33,7 +33,7 @@ yarn add @carbon-extra/css
 ###### Using CSS
 
 ```css
-@import 'node_modules/@carbon-extra/css/dist/index.css';
+@import 'node_modules/@carbon-extra/css/dist/full.css';
 ```
 
 ###### Using Javascript or Typescript
@@ -45,7 +45,7 @@ import '@carbon-extra/css'
 ###### Using HTML Link Stylesheet
 
 ```html
-<link rel="stylesheet" href="node_modules/@carbon-extra/css/dist/index.css">
+<link rel="stylesheet" href="node_modules/@carbon-extra/css/dist/full.css">
 ```
 
 ### CDN
